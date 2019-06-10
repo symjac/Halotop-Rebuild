@@ -1,0 +1,320 @@
+/* RESET */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+body * {
+  font-family: inherit;
+}
+
+.font-condensed, .font-condensed > * {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #46261d;
+}
+
+/*utils*/
+
+.display-flex {
+  display: flex;
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.color-white {
+  color: #fff;
+}
+.color-gold {
+  color: rgb(175, 139, 24);
+}
+.font-weight-lighter {
+  font-weight: lighter;
+}
+
+/*page*/
+.page-border {
+  border: 6px solid rgb(175, 139, 24);
+  background-image: url("../images/background-texture.jpg");
+}
+.section-width {
+  width: 100%;
+  max-width: 1440px;
+}
+.main-body {
+  padding: 100px;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*hero*/
+.hero {
+  background-image: url("../images/hero/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 29%;
+  filter: opacity(90%);
+  width: 100%;
+  padding: 128px 0;
+  text-align: center;
+  font-size: 60px;
+}
+
+/*nav bar*/
+.nav {
+  background-color: rgb(175, 139, 24);
+}
+.nav-bar {
+  padding: 30px 20px 20px 200px;
+  max-width: 1440px;
+}
+.nav-bar a {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.nav-bar a:hover {
+  color: #d7006d;
+}
+.nav-header {
+  font-size: 34px;
+  letter-spacing: 2px;
+  margin-top: 6px;
+}
+.registered {
+  vertical-align: top;
+  font-size: 70%;
+}
+.nav-bar a:nth-child(11) {
+  background: url("../images/icons/ScoopShops_Logo.png");
+  background-size: 94%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 120px;
+  height: 40px;
+}
+.search input {
+  border: none;
+  width: 80%;
+  background-color: transparent;
+  font-size: 16px;
+}
+.search input:focus {
+  outline: none;
+}
+.search {
+  border: 1px solid #aaa;
+  padding: 12px;
+  min-height: 25px;
+  width: 150px;
+}
+
+/*about*/
+
+.about {
+  width: 100%;
+}
+.about img {
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+  margin: 0 20px 10px 0;
+}
+.about-text {
+  width: 100%;
+}
+.about-text h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+.about-text p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+/*ice cream grid*/
+.ice-cream-grid {
+  width: 100%;
+}
+.ice-cream-tile {
+  content: url("../images/ice-cream-tile/PRESS.png");
+  width: 300px;
+  height: 300px;
+}
+.ice-cream-tile:first-child {
+  content: url("../images/ice-cream-tile/PRESS.png");
+}
+.ice-cream-tile:nth-child(2) {
+  content: url("../images/ice-cream-tile/VANILLA+BEAN.png");
+}
+.ice-cream-tile:nth-child(3) {
+  content: url("../images/ice-cream-tile/BDAY+CAKE.png");
+}
+.ice-cream-tile:nth-child(4) {
+  content: url("../images/ice-cream-tile/LEMON+CAKE.png");
+}
+.ice-cream-tile:nth-child(5) {
+  content: url("../images/ice-cream-tile/BLACK+CHERRY.png");
+}
+.ice-cream-tile:nth-child(6) {
+  content: url("../images/ice-cream-tile/CANDY+BAR.png");
+}
+.ice-cream-tile:nth-child(7) {
+  content: url("../images/ice-cream-tile/CARAMEL+MACCHIATO.png");
+}
+.ice-cream-tile:nth-child(8) {
+  content: url("../images/ice-cream-tile/CHOC+ALOMOND.png");
+}
+.ice-cream-tile:nth-child(9) {
+  content: url("../images/ice-cream-tile/CHOC+CHIP+COOKIE+DOUGH.png");
+}
+.ice-cream-tile:nth-child(10) {
+  content: url("../images/ice-cream-tile/CHOC+MOCHA+CHIP.png");
+}
+.ice-cream-tile:nth-child(11) {
+  content: url("../images/ice-cream-tile/CHOCOLATE+COV+BANANA.png");
+}
+.ice-cream-tile:nth-child(12) {
+  content: url("../images/ice-cream-tile/CHOCOLATE.png");
+}
+.ice-cream-tile:nth-child(13) {
+  content: url("../images/ice-cream-tile/CINNAMON+ROLL.png");
+}
+.ice-cream-tile:nth-child(14) {
+  content: url("../images/ice-cream-tile/COOKIES+N+CREAM.png");
+}
+.ice-cream-tile:nth-child(15) {
+  content: url("../images/ice-cream-tile/DAIRYFREE.png");
+}
+.ice-cream-tile:nth-child(16) {
+  content: url("../images/ice-cream-tile/DF-BDAY+CAKE.png");
+}
+.ice-cream-tile:nth-child(17) {
+  content: url("../images/ice-cream-tile/DF-CANDY+BAR.png");
+}
+.ice-cream-tile:nth-child(18) {
+  content: url("../images/ice-cream-tile/DF-CARAMELMACC.png");
+}
+.ice-cream-tile:nth-child(19) {
+  content: url("../images/ice-cream-tile/DF-CHOC+ALOMOND.png");
+}
+.ice-cream-tile:nth-child(20) {
+  content: url("../images/ice-cream-tile/DF-CHOCCHIPCOOKIEDOUGH.png");
+}
+.ice-cream-tile:nth-child(21) {
+  content: url("../images/ice-cream-tile/DF-CHOCCOVBANANA.png");
+}
+.ice-cream-tile:nth-child(22) {
+  content: url("../images/ice-cream-tile/DF-CHOCOLATE.png");
+}
+.ice-cream-tile:nth-child(23) {
+  content: url("../images/ice-cream-tile/DF-CINNAMONROLL.png");
+}
+.ice-cream-tile:nth-child(24) {
+  content: url("../images/ice-cream-tile/DF-OATMEALCOOKIE.png");
+}
+.ice-cream-tile:nth-child(25) {
+  content: url("../images/ice-cream-tile/DF-PANCAKESWAFFLES.png");
+}
+.ice-cream-tile:nth-child(26) {
+  content: url("../images/ice-cream-tile/DF-PBCUP.png");
+}
+.ice-cream-tile:nth-child(27) {
+  content: url("../images/ice-cream-tile/DF-SEASALTCARAMEL.png");
+}
+.ice-cream-tile:nth-child(28) {
+  content: url("../images/ice-cream-tile/DF-TOASTEDCOCONUT.png");
+}
+.ice-cream-tile:nth-child(29) {
+  content: url("../images/ice-cream-tile/DF-VANILLAMAPLE.png");
+}
+.ice-cream-tile:nth-child(30) {
+  content: url("../images/ice-cream-tile/FIND+PINTS.png");
+}
+.ice-cream-tile:nth-child(31) {
+  content: url("../images/ice-cream-tile/GREEN+TEA+MOCHI.png");
+}
+.ice-cream-tile:nth-child(32) {
+  content: url("../images/ice-cream-tile/MINT+CHIP.png");
+}
+.ice-cream-tile:nth-child(33) {
+  content: url("../images/ice-cream-tile/NEWSLETTER.png");
+}
+.ice-cream-tile:nth-child(34) {
+  content: url("../images/ice-cream-tile/OATMEAL+COOKIE.png");
+}
+.ice-cream-tile:nth-child(35) {
+  content: url("../images/ice-cream-tile/PANCAKES+N+WAFFLES.png");
+}
+.ice-cream-tile:nth-child(36) {
+  content: url("../images/ice-cream-tile/PB+CUP.png");
+}
+.ice-cream-tile:nth-child(37) {
+  content: url("../images/ice-cream-tile/PISTACHIO.png");
+}
+.ice-cream-tile:nth-child(38) {
+  content: url("../images/ice-cream-tile/RAINBOW+SWIRL.png");
+}
+.ice-cream-tile:nth-child(39) {
+  content: url("../images/ice-cream-tile/RED+VELVET.png");
+}
+.ice-cream-tile:nth-child(40) {
+  content: url("../images/ice-cream-tile/SEA+SALT+CARAMEL.png");
+}
+.ice-cream-tile:nth-child(41) {
+  content: url("../images/ice-cream-tile/SMORES.png");
+}
+.ice-cream-tile:nth-child(42) {
+  content: url("../images/ice-cream-tile/STRAWBERRY.png");
+}
+
+/*footer*/
+
+.footer-text {
+  margin: 100px 0 20px;
+  font-size: 13px;
+}
+.footer-text a,p {
+  margin: 0 2px;
+}
+.footer-text a:hover {
+  color: #595959;
+}
+.fab {
+  border: 2px solid #222;
+  padding: 7px;
+  margin: 5px;
+  border-radius: 100px;
+  color: #222;
+}
+.fab:hover {
+  background-color: #222;
+  color: #fff;
+  transition: 0.3s;
+}
